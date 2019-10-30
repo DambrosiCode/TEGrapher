@@ -1,6 +1,6 @@
-require(ggplot2)
-
 p.val.plotter <- function(te.p.vals = p, snp.data  = NaN, te.data = te, chr = 'chrIV', chr.size = NaN, sig = nrow(te.data), graphs = 2){
+  require(ggplot2)
+
   te.data$te.p.vals <- te.p.vals
 
   te.data$log.te.p.vals <- -log(te.p.vals)
