@@ -24,3 +24,4 @@ The final file should be in a joint output as seen [here](https://sourceforge.ne
 | Pop | Chromosome | Physical Location on Chr | . | Name | Family | Forward/Reverse | - | Frequency in Pop n | Frequency in Pop n |
 | Pop | Chromosome | Physical Location on Chr | . | Name | Family | Forward/Reverse | - | Frequency in Pop n | Frequency in Pop n |
 
+## Functions
