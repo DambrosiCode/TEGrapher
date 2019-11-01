@@ -15,7 +15,7 @@ analysis is left up to the user. For this I've developed a package in R to make 
 ## Input File Format
 The final file should be in a joint output as seen [here](https://sourceforge.net/p/popoolation-te2/wiki/signature%20file%20format/#differences-between-joint-and-separate-analysis). Therefore all files used within this package should be formatted like the following:
 
-| Pop |  | Loc | . | Name | Family | F/R | - | Pop 1 | Pop n |
+| Pop | Group | Loc | . | Name | Family | F/R | - | Pop 1 | Pop n |
 |-----|------------|--------------------------|---|------|--------|-----------------|---|----------|----------|
 | Pop | Chromosome | Physical Location on Chr | . | Name | Family | Forward/Reverse | - | Frequency in Pop n | Frequency in Pop n |
 | Pop | Chromosome | Physical Location on Chr | . | Name | Family | Forward/Reverse | - | Frequency in Pop n | Frequency in Pop n |
