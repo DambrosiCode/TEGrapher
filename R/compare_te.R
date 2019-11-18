@@ -12,8 +12,10 @@
 #' compare(data = te, pop = CH2012, chr = "chrIV", gene = 12e6, mean.window = 30000, total.window = 30000, mean.fit = 0.2, total.fit = 0.2)
 
 compare <- function(data, pop, chrom, gene, mean.window, total.window, mean.fit = .2, total.fit = .2){
-  require(ggplot2)
-
+  if (!requireNamespace("ggplot2", quietly = TRUE))
+    install.packages("ggplot2")
+  library(ggplot2)
+  
   #get chromosome
   chr <- data[which(data$Chr == chrom),]
 
