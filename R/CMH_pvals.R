@@ -1,6 +1,8 @@
 cmh.pvals <- function(data, num.of.pop, cov, Ne, gen, repl, poolsize, IntGen = T){
   if (!requireNamespace("ACER", quietly = TRUE))
     install.packages("ACER")
+  libary(ACER)
+
   data.afMat <- as.matrix(data[9:(num.of.pop+8)])
 
   data.covMat <- matrix(cov, nrow = nrow(data.afMat), ncol = ncol(data.afMat))
